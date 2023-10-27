@@ -1,0 +1,42 @@
+.paginate--container {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    margin: 10px 0;
+}
+
+.paginate--main {
+    list-style-type: none;
+    display: inline;
+}
+
+.paginate-list {
+    min-width: 1.8rem;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 3px 5px;
+    background-color: #ffffff;
+    box-shadow: 0 0 3 4 rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.paginate-list--ignore {
+    min-width: 1.2rem;
+    display: inline-block;
+    margin: 3px 5px;
+    color: gray;
+    box-shadow: 0 0 3 4 rgba(0, 0, 0, 0.1);
+}
+
+.paginate-link {
+    width: 100%;
+    padding: 2px 8px;
+    color: #036f6f;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+.active-page {
+    background-color: lightcyan;
+}
