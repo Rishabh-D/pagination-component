@@ -8,7 +8,7 @@ const Characters = () => {
 
     const fetchCharacters = async (page) => {
         const response = await fetch(
-            `${process.env.REACT_APP_RICK_MORTY_PUBLIC_API_BASE_URL}/caracter/?page=${page}`
+            `${process.env.REACT_APP_RICK_MORTY_PUBLIC_API_BASE_URL}/character/?page=${page}`
         );
         if (!response.ok) {
             throw new Error("Network response  not ok");
